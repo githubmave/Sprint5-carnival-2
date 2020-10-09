@@ -48,7 +48,7 @@ There are multiple ways you could go about doing this; we would recommend readin
 
 Once you have a reference to all the cells, the next step is to write a function that will randomly select one to put the mole in. If you have stored the cells in an array (or a 2D array), you can create an indexer function. This function should generate and return a random number (within a certain range) that we can then use to get the corresponding cell from inside your array. ie, 
 
-```
+
 var randomIndex = functionToGetRandomNumber()
 var randomCell = cellsArray[randomIndex]
 ```
